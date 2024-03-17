@@ -1,0 +1,34 @@
+employee table 
+emp id
+emp name
+salary
+dept
+
+emp name getting highest sal in each dept
+
+with highest_salary as 
+(select name, rank() over(partition by dept order by salary desc) as rank
+from employee)
+
+select 
+
+identify odd and even from list
+
+rdd of integers
+
+integersdf
+
+even_df = integersdf.filter("")
+
+L = 1,2,5,78
+
+int max;
+for i = 0,i < L.size(),i++
+    for j = i+1,j<L.size(),j++
+
+    if L[i] > L[j]
+        max = L[i]
+    else
+        max = L[j]
+
+
