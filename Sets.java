@@ -29,7 +29,9 @@ public class Sets {
          linkedhashSet.add(56);
          linkedhashSet.add(85);
          System.out.println(linkedhashSet);
-        //TREESET - sorted set
+
+
+        //TREESET - sorted order set
 
         Set<Integer> treeset = new TreeSet<>();
 
@@ -42,12 +44,6 @@ public class Sets {
 
         System.out.println(treeset); //op -[23, 25, 74, 253, 2355, 2553]
         
-
-
-
-
-        
-
-    }
+   }
     
 }
