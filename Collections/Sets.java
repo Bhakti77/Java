@@ -41,7 +41,7 @@ public class Sets {
         System.out.println(lhset);
 
         //TREESET
-        //Elements will be sorted
+        //Elements will be sorted 
         Set<Integer> tset = new TreeSet<>();
 
         tset.add(56);
